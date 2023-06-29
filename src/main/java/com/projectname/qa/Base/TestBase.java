@@ -11,6 +11,8 @@ public class TestBase {
 	public static WebDriver driver;
 	 
 	public void intializeBrowser(String browser) {
+
+		System.out.println("I am updated from github")
 		if(browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Desktop\\chromedriver_win32 (2)\\chromedriver.exe");
 			driver = new ChromeDriver();
