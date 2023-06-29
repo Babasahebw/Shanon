@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[verifyFacebookLoginPageLogo]]>
+    </line>
+    <line>
+      <![CDATA[verifyFacebookLoginPageTagline]]>
+    </line>
+    <line>
+      <![CDATA[verifyFacebookLoginPageCreateNewAccountBtn]]>
+    </line>
+    <line>
+      <![CDATA[verifyFacebookLoginPageCreatePage]]>
+    </line>
+    <line>
+      <![CDATA[verifyFacebookLoginPageLogo]]>
+    </line>
+    <line>
+      <![CDATA[setFacebookLoginPageUsername]]>
+    </line>
+    <line>
+      <![CDATA[setFacebookLoginPagePassword]]>
+    </line>
+    <line>
+      <![CDATA[clickFacebookLoginPageLoginBtn]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="49666" started-at="2022-08-17T18:32:57Z" finished-at="2022-08-17T18:33:47Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="49666" started-at="2022-08-17T18:32:57Z" finished-at="2022-08-17T18:33:47Z">
+      <class name="com.projectname.qa.TestCases.RegistrationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.projectname.qa.TestCases.RegistrationTest@1b6a447]" name="setup" is-config="true" duration-ms="13970" started-at="2022-08-18T00:03:21Z" finished-at="2022-08-18T00:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FacebookRegistrationPageTest()[pri:0, instance:com.projectname.qa.TestCases.RegistrationTest@1b6a447]" name="FacebookRegistrationPageTest" duration-ms="11668" started-at="2022-08-18T00:03:35Z" finished-at="2022-08-18T00:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookRegistrationPageTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.projectname.qa.TestCases.RegistrationTest@1b6a447]" name="teardown" is-config="true" duration-ms="416" started-at="2022-08-18T00:03:46Z" finished-at="2022-08-18T00:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.projectname.qa.TestCases.RegistrationTest -->
+      <class name="com.projectname.qa.TestCases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.projectname.qa.TestCases.LoginTest@5d012c]" name="setup" is-config="true" duration-ms="17215" started-at="2022-08-18T00:02:57Z" finished-at="2022-08-18T00:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FacebookLoginPageTest()[pri:0, instance:com.projectname.qa.TestCases.LoginTest@5d012c]" name="FacebookLoginPageTest" duration-ms="3927" started-at="2022-08-18T00:03:14Z" finished-at="2022-08-18T00:03:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyFacebookLoginPageLogo]]>
+            </line>
+            <line>
+              <![CDATA[verifyFacebookLoginPageTagline]]>
+            </line>
+            <line>
+              <![CDATA[verifyFacebookLoginPageCreateNewAccountBtn]]>
+            </line>
+            <line>
+              <![CDATA[verifyFacebookLoginPageCreatePage]]>
+            </line>
+            <line>
+              <![CDATA[verifyFacebookLoginPageLogo]]>
+            </line>
+            <line>
+              <![CDATA[setFacebookLoginPageUsername]]>
+            </line>
+            <line>
+              <![CDATA[setFacebookLoginPagePassword]]>
+            </line>
+            <line>
+              <![CDATA[clickFacebookLoginPageLoginBtn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FacebookLoginPageTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.projectname.qa.TestCases.LoginTest@5d012c]" name="teardown" is-config="true" duration-ms="2431" started-at="2022-08-18T00:03:18Z" finished-at="2022-08-18T00:03:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.projectname.qa.TestCases.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
